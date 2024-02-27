@@ -1,5 +1,7 @@
 #include <iostream>
 using namespace std;
+
+
 int main()
 {//begin
 
@@ -8,17 +10,21 @@ int main()
     //accept nJejari
     //compute nLuas = 3.14 * r * r
     //display  'Luasnya= ' + nLuas
-    
-    
-    float nJejari, nLuas;
+    cout << "=========Luas Lingkaran=========";
+
+    float a, b;
     cout << "Masukan jejari =";
-    cin >> nJejari;
-    nLuas = 3.15 * nJejari * nJejari
+    cin >> a;
+    b = 3.14 * a * a;
+    cout << " Luasnya = " << b << endl;
 
+    //numeric nPanjang, nLebar 
+    //display'masukan panjang= '
+    //accept nPanjang 
+    //display 'masukan lebar= '
+    //accept nLebar 
+    //compute nLuas = Panjang * nLebar
+    //display 'Luasnya
 
-
-}
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+}//end
 
